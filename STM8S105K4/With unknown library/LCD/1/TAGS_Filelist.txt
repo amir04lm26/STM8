@@ -1,0 +1,13 @@
+main.c
+stm8_interrupt_vector.c
+lcd\lcd.c
+lcd\lcd.h
+stm8s.h
+..\..\..\..\..\..\..\..\..\apps\cosmic\cxstm8_eval\hstm8\mods0.h
+beep.h
+common.h
+eeprom.h
+iwdg.h
+stm8s_type.h
+tim5.h
+tim6.h
