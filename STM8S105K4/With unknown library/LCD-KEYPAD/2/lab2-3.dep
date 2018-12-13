@@ -1,0 +1,20 @@
+;	STMicroelectronics dependencies file
+
+[Version]
+Keyword=ST7Project
+Number=1.3
+
+[Root.Source Files.main.c.Config.0]
+ExternDep= main.c C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\mods0.h stm8s.h  stm8s_type.h lcd\lcd.h delay.h keypad\keypad.h  C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\stdio.h
+
+[Root.Source Files.stm8_interrupt_vector.c.Config.0]
+ExternDep= stm8_interrupt_vector.c  C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\mods0.h common.h stm8s.h stm8s_type.h iwdg.h  beep.h tim6.h tim5.h eeprom.h
+
+[Root.Include Files.Include Files\keypad.keypad\keypad.c.Config.0]
+ExternDep= keypad\keypad.c C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\mods0.h  keypad\keypad.h stm8s.h stm8s_type.h delay.h
+
+[Root.Include Files.Include Files\lcd.lcd\lcd.c.Config.0]
+ExternDep= lcd\lcd.c C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\mods0.h lcd\lcd.h  stm8s.h stm8s_type.h delay.h
+
+[Root.Include Files.delay.c.Config.0]
+ExternDep= delay.c C:\Apps\COSMIC\CXSTM8_EVAL\Hstm8\mods0.h delay.h
