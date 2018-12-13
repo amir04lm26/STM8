@@ -1,5 +1,5 @@
-# About This Repo
-This is library source code for STM8S mirco-controller.
+# About This
+This is usage of stm8 mirco-controller's library.
 
 # About me
-I am an embedded software engineer, work on appliance field. 
+I am an embedded & web software engineer.
